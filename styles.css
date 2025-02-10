@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2b2929;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(229, 39, 39);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#visualization {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #e3972b;
+}
